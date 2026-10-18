@@ -6,7 +6,7 @@ let mut colors = ["red", "green","yellow", "white"];
 println!("\nOriginal array = {:?}", colors);
 
 // mutable slice
-let sliced_colors = &mut colors[1..3];
+let sliced_colors = &mut colors[1..w3];
 
 println!("First slice = {:?}", sliced_colors);
 
